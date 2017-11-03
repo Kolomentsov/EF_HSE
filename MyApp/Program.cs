@@ -13,7 +13,7 @@ namespace MyApp
         {
             using (Context mycontext = new Context())
             {
-                var b = mycontext.Roles.ToList();
+                var c = mycontext.Roles.ToList();
             }
         }
     }
